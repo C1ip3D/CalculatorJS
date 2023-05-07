@@ -1,0 +1,103 @@
+*{
+	padding: 0;
+	margin:0;
+	font-family: 'Delicious Handrawn', cursive;
+}
+
+h1{
+	text-align: center;
+	margin-top: 5%;
+	font-size: 79px;
+}
+
+/* button{
+	font-family: 'Alkatra', cursive;
+	font-size: 40px;
+	margin: 5px;
+}
+.button-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  } */
+  
+.button-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	width: 250px;
+	height: 250px;
+	border: 1px solid black;
+}
+
+.button {
+	flex: 1;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2em;
+}
+
+.button:nth-child(1) {
+	order: 7;
+}
+.button:nth-child(2) {
+	order: 8;
+}
+.button:nth-child(3) {
+	order: 9;
+}
+
+.button:nth-child(4) {
+	order: 4;
+}
+
+.button:nth-child(5) {
+	order: 5;
+}
+
+.button:nth-child(6) {
+	order: 6;
+}
+
+.button:nth-child(7) {
+	order: 1;
+}
+
+.button:nth-child(8) {
+	order: 2;
+}
+
+.button:nth-child(9) {
+	order: 3;
+}
+
+.button:nth-child(10) {
+	order: 11;
+}
+
+.button:nth-child(11) {
+	order: 10;
+}
+
+.button:nth-child(12) {
+	order: 12;
+}
+
+.button:nth-child(13) {
+	order: 13;
+}
+
+.button:nth-child(14) {
+	order: 14;
+}
+
+.button:nth-child(15) {
+	order: 15;
+}
+
+.button:nth-child(16) {
+	order: 16;
+}
